@@ -40,8 +40,8 @@ const Footer = () => {
             <div className="flex flex-col items-center space-y-4">
               {/* Top text */}
               <div className="flex items-center space-x-2 text-gray-300">
-                {/* <span>Made with</span>
-                <Heart size={16} className="text-red-500" /> */}
+                <span>Made by</span>
+                {/* <Heart size={16} className="text-red-500" /> */}
                 <span>Ogunberu Oluwatobi Clement</span>
               </div>
 
