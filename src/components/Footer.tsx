@@ -28,20 +28,20 @@ const Footer = () => {
               Start a Conversation
             </a>
             <a
-              href="/resume_oluwatobi_ogunberu.pdf"
-              download="resume_oluwatobi_ogunberu.pdf"
+              href="/resume_oluwatobi_ogunberu (SD).pdf"
+              download="resume_oluwatobi_ogunberu (SD).pdf"
               className="border border-gray-600 hover:border-gray-400 px-6 py-3 rounded-lg font-medium transition-colors duration-300"
             >
               Download Resume
             </a>
           </div>
 
-          <div className="w-full max-w-4xl border-t border-gray-700 pt-8">
+          <div className="w-full max-w-4xl bordr-t border-gray-700 pt-8">
             <div className="flex flex-col items-center space-y-4">
               {/* Top text */}
               <div className="flex items-center space-x-2 text-gray-300">
-                <span>Made with</span>
-                <Heart size={16} className="text-red-500" />
+                {/* <span>Made with</span>
+                <Heart size={16} className="text-red-500" /> */}
                 <span>Ogunberu Oluwatobi Clement</span>
               </div>
 

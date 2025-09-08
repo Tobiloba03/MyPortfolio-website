@@ -68,7 +68,7 @@ const Experience = () => {
       credentialId: "UC-4ea8c881-ec6e-4348-a274-6180df3eb5be",
     },
     {
-      title: "Figma UI UX Design Advanced",
+      title: "FIGMA UI UX DESIGN ADVANCED",
       issuer: "UDEMY",
       date: "JAN '25",
       credentialId: "UC-17f2d5fe-4e38-45e9-aa0a-b595faf8ab2d",
