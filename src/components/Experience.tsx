@@ -3,11 +3,24 @@ import { MapPin, Calendar, Building } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
+      {
+      title: "Lead Software Developer",
+      company: "RHG Foods Ltd",
+      location: "Remote, Canada",
+      period: "2026 - Present",
+      description: [
+        "Pioneered a Digital Passport traceability system, providing 100% supply chain transparency from farm to warehouse for every cassava and shipment",
+        "Established direct sourcing partnerships with certified global cassava facilities, eliminating intermediaries and ensuring premium product quality",
+        "Developed and maintained a CFIA-compliant import and distribution framework, ensuring all products meet Canadian food safety regulations",
+        "Directed the integration of QR-based pallet tracking technology, enabling real-time shipment monitoring and digital Certificate of Analysis generation",
+      ],
+      technologies: ["TeamLead", "FullStack Developer", "UI/UX Designer", ],
+    },
     {
       title: "Associate Software engineer",
       company: "Tulolag Petroleum Energy Ltd",
       location: "Lagos, Nigeria",
-      period: "2021 - Present",
+      period: "2021 - Dec '25",
       description: [
         "Spearheaded the adoption of modern IT solutions, streamlining company operations and improving overall efficiency",
         "Supervised the implementation of secure data management systems to enhance organizational data integrity",
@@ -73,6 +86,12 @@ const Experience = () => {
       date: "JAN '25",
       credentialId: "UC-17f2d5fe-4e38-45e9-aa0a-b595faf8ab2d",
     },
+    {
+      title: "NYSC CERTIFICATE",
+      issuer: "NYSC",
+      date: "2025",
+      credentialId: "OG/BCU/2024/385044",
+    }
   ];
 
   return (
@@ -93,12 +112,12 @@ const Experience = () => {
           <div className="relative">
             <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-0.5 bg-blue-200 h-full"></div>
             
-            {experiences.map((exp, index) => (
-              <div key={index} className={`relative flex items-start mb-12 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
+          {experiences.map((exp, index) => (
+              <div key={index} className={`relative flex items-start mb-12 ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
                 <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right md:pr-8' : 'md:pl-8'} pl-12 md:pl-8`}>
                   <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
                     <div className="flex items-start justify-between mb-4">
-                      <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right' : ''}`}>
+                      <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right md:pr-8' : 'md:pl-8'} pl-12 md:pl-8`}>
                         <h4 className="text-xl font-semibold text-gray-900">{exp.title}</h4>
                         <div className="flex items-center space-x-4 text-gray-600 mt-1">
                           <div className="flex items-center space-x-1">

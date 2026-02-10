@@ -3,6 +3,8 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import ID1 from "../Assets/ID1.png";
 import ID2 from "../Assets/ID2.png";
 import ID3 from "../Assets/ID3.png";
+import ID4 from "../Assets/ID4.png";
+import ID5 from "../Assets/ID5.png";
 
 const Projects = () => {
   const projects = [
@@ -22,7 +24,7 @@ const Projects = () => {
       ],
       liveUrl: "https://youth-harvest.vercel.app/",
       githubUrl: "https://github.com/Tobiloba03/youth-harvest",
-      featured: true,
+      featured: false,
     },
     {
       id: 2,
@@ -40,7 +42,7 @@ const Projects = () => {
       ],
       liveUrl: "https://shesafe-sandy.vercel.app/",
       githubUrl: "https://github.com/Tobiloba03/shesafe",
-      featured: true,
+      featured: false,
     },
     {
       id: 3,
@@ -60,30 +62,30 @@ const Projects = () => {
       // githubUrl: "#",
       featured: false,
     },
-    // {
-    //   id: 4,
-    //   title: "Social Media Analytics",
-    //   description:
-    //     "A comprehensive analytics platform for social media metrics with data visualization, reporting, and automated insights generation.",
-    //   image:
-    //     "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
-    //   technologies: ["Python", "Django", "React", "D3.js", "PostgreSQL"],
-    //   liveUrl: "#",
-    //   githubUrl: "#",
-    //   featured: false,
-    // },
-    // {
-    //   id: 5,
-    //   title: "Learning Management System",
-    //   description:
-    //     "An LMS platform with course creation, progress tracking, video streaming, and interactive quizzes for online education.",
-    //   image:
-    //     "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=800",
-    //   technologies: ["Next.js", "Prisma", "AWS S3", "Stripe", "Tailwind CSS"],
-    //   liveUrl: "#",
-    //   githubUrl: "#",
-    //   featured: false,
-    // },
+    {
+      id: 4,
+      title: "RHG FOODS Website",
+      description:
+        "RHG Foods bridges global cassava farm hubs to Ontario manufacturers with 100% transparency. Premium tapioca starch with full digital traceability.",
+      image:
+        ID4,
+      technologies: ["Figma", "React", "TypeScript", "Chakra UI","Supabase", "Github", "Resend API", "EmailJS API", "Mapbox API" ,"Vercel"],
+      liveUrl: "https://www.rhgfoods.ca/",
+      githubUrl: "#",
+      featured: true,
+    },
+    {
+      id: 5,
+      title: "StackPulse Solutions Website",
+      description:
+        "A Strategic technology partnerships that drive measurable business outcomes. We architect, develop, and deploy enterprise-grade solutions that scale with your ambition.",
+      image:
+        ID5,
+      technologies: ["Figma", "React", "TypeScript", "Chakra UI", "Supabase", "Github", "EmailJS API", "VScode" ,"Vercel"],
+      liveUrl: "https://www.stackpulsesolution.com.ng/",
+      githubUrl: "#",
+      featured: true,
+    },
     // {
     //   id: 6,
     //   title: "Real Estate Platform",
